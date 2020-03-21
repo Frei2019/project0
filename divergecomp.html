@@ -2,33 +2,52 @@
 <html>
     <head>
         <title>Diverge Comp E5</title>
-        <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style media="screen">
+          h2 {text-align: center;}
+        </style>
     </head>
     <body>
-        <h1>Diverge Comp E5</h1>
-        <div class="backlink">
-          <a href="index.html">Back</a>
+        <h1 class="text-center">Diverge Comp E5</h1>
+        <div class="row px-4">
+          <div class="col-sm-6">
+            <div class="card text-center bg-light mb-3">
+              <div class="card-body">
+                <h2 class="card-title">Overview</h2>
+                <div class="card-text">
+                  <table class="table table-bordered">
+                    <tr>
+                      <th>Name</th>
+                      <th>Value</th>
+                    </tr>
+                    <tr>
+                      <td>Price</td>
+                      <td>CHF 1900.00</td>
+                    </tr>
+                    <tr>
+                      <td>Color</td>
+                      <td>Bright Blue</td>
+                    </tr>
+                    <tr>
+                      <td>Tire Width</td>
+                      <td>27mm</td>
+                    </tr>
+                  </table>
+                </div>
+            </div>
+          </div>
         </div>
-        <h2>Overview</h2>
-        <table>
-          <tr>
-            <th>Name</th>
-            <th>Value</th>
-          </tr>
-          <tr>
-            <td>Price</td>
-            <td>CHF 1900.00</td>
-          </tr>
-          <tr>
-            <td>Color</td>
-            <td>Bright Blue</td>
-          </tr>
-          <tr>
-            <td>Tire Width</td>
-            <td>27mm</td>
-          </tr>
-        </table>
-        <h2>Image</h2>
-        <img src="img/divergecomp.jpg" class="center">
+        <div class="col-sm-6">
+          <div class="card text-center bg-light mb-3">
+            <div class="card-body">
+              <h2 class="card_title">Image</h2>
+              <img src="img/divergecomp.jpg" width="308px" align="center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div align="center">
+        <a class="btn btn-light" href="index.html" role="button">Back</a>
+      </div>
     </body>
 </html>
