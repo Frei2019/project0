@@ -50,3 +50,11 @@ th {
   margin-right: auto;
   width: 50%;
 }
+
+#img1 {
+  display: none;
+}
+
+li.link:hover + #img1 {
+  display: block;
+}
