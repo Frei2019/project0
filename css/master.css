@@ -1,5 +1,8 @@
 * {
   font-family: Calibri, sans-serif;
+}
+
+h1, h2, ol, ul, div {
   margin-left: 1%;
 }
 
@@ -9,6 +12,10 @@ h1 {
 
 table {
   border-collapse: collapse;
+}
+
+ol li {
+  font-style= oblique 18deg;
 }
 
 td, th {
@@ -21,7 +28,7 @@ th {
   background-color: #00BFFF;
 }
 
-#new {
+#new1 {
   font-style: italic;
   font-weight: bold;
 }
@@ -37,9 +44,24 @@ th {
   margin-top: -15px;
 }
 
-.center {
+@media (max-width: 500px) {
+  .center {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) {
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#img1 {
+  display: none;
+}
+
+li.link:hover + #img1 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
