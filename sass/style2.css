@@ -1,0 +1,42 @@
+/* This is defining a variable */
+/* dark red */
+.text, h1, h2 {
+  font-family: Calibri, sans-serif;
+  color: #003300;
+  /* dark green */
+}
+
+h1, h2 {
+  color: blue;
+  /* This overwrites the standardstyle because it is more specific */
+}
+
+.text {
+  font-style: italic;
+}
+
+.highlight {
+  color: #660000;
+}
+
+@media (max-width: 500px) {
+  .center {
+    display: none;
+  }
+}
+@media (min-width: 501px) {
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+tr th {
+  background-color: #660000;
+}
+tr td {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style2.css.map */
